@@ -53,3 +53,8 @@ resource "google_compute_instance" "vm_demo" {
 
   tags = ["web-server"]
 }
+resource "google_storage_bucket" "my_bucket" {
+  name          = var.bucket_name
+  location      = "us-central1"
+  force_destroy = true
+}

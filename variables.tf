@@ -44,3 +44,8 @@ variable "vmsize" {
   type        = string
   default     = 15
 }
+variable "bucket_name" {
+  description = "Name of the GCS bucket"
+  type        = string
+  default     = "bucket-stroage"
+}
