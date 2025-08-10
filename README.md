@@ -9,8 +9,8 @@ Instead of opening the GCP console and clicking through a bunch of menus every t
 ---
 
 ## Project Overview
+![Modular Infrastructure Setup on GCP using Terraform](./terraform%20diagram.jpg)
 
-![Modular Infrastructure Setup on GCP using Terraform](./terraform-diagram.jpg)
 
 ---
 
